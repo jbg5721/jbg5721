@@ -1,2 +1,2 @@
 # Hello World!
-Welcome to my Github pages site!
+Welcome to my site!
