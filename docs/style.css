@@ -1,6 +1,6 @@
 
 body {
-background-color: /*BurlyWood*/ #99ccff;
+background-color: /*BurlyWood*/ #99ddff;
 /* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
 color: indigo;
 font-family: arial, helvetica, sans-serif;
@@ -10,6 +10,7 @@ font-family: arial, helvetica, sans-serif;
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
 body
+
 {
   margin-top: 40px;
   margin-left: 60px;
