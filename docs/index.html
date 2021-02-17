@@ -10,6 +10,36 @@
         .tab { margin-left: 50px; }
 -->
         </style>
+        <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+        <style>
+            h1 {color: #3c3c3c}
+            h2 {color: #3c3c3c}
+            h3 {color: #3c3c3c}
+        </style>
     <!--2021-02-02 ebb: The code inside the <head> element is not for display in the web browser, but it holds important information about the website's contents.
     The text inside the <title> element appears in the top tab of a web browser. The meta elements give instructions for how the browser window will behave, 
     and the <link> element pulls in a CSS stylesheet from another (external) file you'll save in your website directory. 
@@ -17,12 +47,19 @@
     </head>
     <body>
         <!--ebb: Here is where the code for the visible display of a website appears! -->
-        <body style ="background-color:#99ddff;">
+        <body style ="background-color:#00cbff;"></body>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="innerPage.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                
+            </ul>
+            
             
    <div style="background-color:#ffffff;padding:20px">
        <h1>jbg5721 Site</h1>
   
-            <button><a href="innerPage.html">About Me Page</a></button><button><a href="resume.html">My Resume</a></button>
+            
            </div>    
      <p>Welcome to my portfolio site from GitHub Pages!</p>
     
@@ -38,25 +75,25 @@
       <h3>Some of the Digital Work that I have done</h3>
             <p class ="tab">This is a link to a website portfolio I created using Wix in my 11th grade year of highschool: <a href="https://joeygardiner0.wixsite.com/cg2profile" target="_blank">Joey Gardiner Wix Portfolio</a></p>
             <p class ="tab">I would like to add work from:
-                <ul>
+                <ol>
                     <li>Photo 100 (Intro to Photography)</li>
                     <li>Art 168 (Intro to Digital Media)</li>
                     <li>Digit 297 (Narrative Game Design)</li>
                     <li>InArt258A (Fundimentals of Digital Audio)</li>
                     <li>Some of my personal works</li>
-                </ul> </p>
+                </ol> </p>
             <p class ="tab">When should I use <b>bold</b> vs. <strong>strong</strong> in HTML code? These are <dfn>inline</dfn> elements.</p>
             <p class ="tab"> Other HTML elements like the <dfn>p</dfn> (for paragraph) or the heading level elements, or ordered and unorderd lists, or img elements make
             blocks on the page and are known as <dfn>block</dfn> elements.</p>
  
         
                 <h2>An unordered list of squids</h2>
-        <ul>
+        <ol>
             <li>Giant squid</li>
             <li>Vampire Squid</li>
             <li>Firefly Squid</li>
             <li>Humbolt Squid</li>
-        </ul>
+        </ol>
        
               
         </body>

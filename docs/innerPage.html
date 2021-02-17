@@ -7,11 +7,41 @@
         <link rel="stylesheet" type="text/css" href="style.css"/>
         <style type="text/css"/></style>
         <style>
+            h1 {color: #3c3c3c}
+            h2 {color: #3c3c3c}
+            h3 {color: #3c3c3c}
+        </style>
+        <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+    <!--    <style>
 div {
     height: 100px;
     background: linear-gradient(to bottom right, #33ccff 0%, #ccffff 100%)
 }
-            
+-->           
 <!--
         .tab { margin-left: 50px; }
 -->
@@ -23,13 +53,19 @@ div {
     -->
    
     <body>
-        <body style ="background-color:#bfee90;"/>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="innerPage.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            
+        </ul>
+        <body style ="background-color:#00cbff;"/>
         <!--ebb: Here is where the code for the visible display of a website appears! -->
         <div style="background-color:#ffffff;padding:20px">
         <h1>About Me Page</h1>     
-            <button><a href="index.html">Home Page</a></button><button><a href="resume.html">My Resume</a></button>
+            
         </div>
-            <p class ="tab">Here's an internal page on my GitHub Pages site.</p>
-        <img src="images/EchO.jpg" alt="EchO" width="500" height="500" align="left" style="margin:0px 25px 0px 0px"/><p class="tab">Hello I am Joseph B. Gardiner. </p>
+          <!--  <p class ="tab">Here's an internal page on my GitHub Pages site.</p> -->
+        <img src="images/EchO.jpg" alt="Over Under" width="500" height="500" align="left" style="margin:0px 25px 0px 0px"/><p class="tab">Hello I am Joseph B. Gardiner. </p>
         </body>
 </html>
