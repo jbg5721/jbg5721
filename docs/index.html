@@ -39,7 +39,42 @@ li a:hover {
             h1 {color: #3c3c3c}
             h2 {color: #3c3c3c}
             h3 {color: #3c3c3c}
+            h2 { font-size: 25px; }
+            p {
+  font-size: 19px;
+}
+p {
+  text-indent: 50px;
+}
+
         </style>
+        <style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
     <!--2021-02-02 ebb: The code inside the <head> element is not for display in the web browser, but it holds important information about the website's contents.
     The text inside the <title> element appears in the top tab of a web browser. The meta elements give instructions for how the browser window will behave, 
     and the <link> element pulls in a CSS stylesheet from another (external) file you'll save in your website directory. 
@@ -70,9 +105,8 @@ li a:hover {
        The HTML <img> element pulls that image file into the page. You can write styling code with CSS to control relatively how much space it will take up in the browser window.
        -->
         
-      <h2><dfn>Header second size</dfn></h2>
-            <p class ="tab">Test paragraph to see where it is located and how it looks on the live site.</p>
-      <h3>Some of the Digital Work that I have done</h3>
+      
+      <h2>Some of the Digital Work that I have done</h2>
             <p class ="tab">This is a link to a website portfolio I created using Wix in my 11th grade year of highschool: <a href="https://joeygardiner0.wixsite.com/cg2profile" target="_blank">Joey Gardiner Wix Portfolio</a></p>
             <p class ="tab">I would like to add work from:
                 <ol>
@@ -82,18 +116,74 @@ li a:hover {
                     <li>InArt258A (Fundimentals of Digital Audio)</li>
                     <li>Some of my personal works</li>
                 </ol> </p>
-            <p class ="tab">When should I use <b>bold</b> vs. <strong>strong</strong> in HTML code? These are <dfn>inline</dfn> elements.</p>
-            <p class ="tab"> Other HTML elements like the <dfn>p</dfn> (for paragraph) or the heading level elements, or ordered and unorderd lists, or img elements make
-            blocks on the page and are known as <dfn>block</dfn> elements.</p>
+       <!-- <img src="images/Vdotexe.jpg" alt="Vexe" style="margin:0px 25px 0px 0px"/> -->
+        <p>Photo 100, Introduction to Photography.</p>
+        <div class="gallery">
+            <a target="_blank" href="images/HouseOriginalImage.jpg">
+                <img src="images/HouseOriginalImage.jpg" alt="Unedited Lawn" width="600" height="400">
+            </a>
+            <div class="desc">This is the original photo of this house before I went in and made it nicer.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="images/HouseFinalEdit.jpg">
+                <img src="images/HouseFinalEdit.jpg" alt="Edited lawn" width="600" height="400">
+            </a>
+            <div class="desc">With the edit I made the lawn look cleaner. I also removed the jeep from the back road.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="images/RunnerOrginal.jpg">
+                <img src="images/RunnerOrginal.jpg" alt="Original Runner Photo" width="600" height="400">
+            </a>
+            <div class="desc">This photo of a runner can be used to show off different colors of the cloths without doing more then one shoot. </div>
+        </div>
+            <div class="gallery">
+                <a target="_blank" href="images/RunnerEdit.jpg">
+                    <img src="images/RunnerEdit.jpg" alt="Edited Runner Photo" width="600" height="400">
+                </a>
+                <div class="desc">The grey tones from the original allow for many hue and saturation changes. I can select the shirt and the headband seperately and move them onto different layers. Then I can go into the color settings and change the grey into the desired color. </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="images/VNETBuildingOriginal.jpg">
+                <img src="images/VNETBuildingOriginal.jpg" alt="VNET original photo" width="600" height="400">
+            </a>
+            <div class="desc">This is a photo of the Vnet company building.</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="images/VNETJGNetEdit.jpg">
+                <img src="images/VNETJGNetEdit.jpg" alt="VNET edited" width="600" height="400">
+            </a>
+            <div class="desc">For the assignment, I had to clean up the surrounding area and replace the VNET logo. </div>
+        </div>
+        <div class="clearfix"></div>
+       <div style="padding:6px;">
+        <p class ="tab">Below is a gallery of some of my personal digital works. I created these using Procreate, a digital drawing app. I used different brushes, layers, and colors to create these. Some like the concept drawing, were less about the technique and more so about creating an interesting character design that could stand out.  </p>
+       </div>
+        <div class="gallery">
+            <a target="_blank" href="images/Vdotexe.jpg">
+                <img src="images/Vdotexe.jpg" alt="Vexe" width="600" height="400">
+            </a>
+            <div class="desc">This is an original character of mine, V.exe.</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="images/LockedSreen.jpg">
+                <img src="images/LockedSreen.jpg" alt="Lockscreen background" width="600" height="400">
+            </a>
+            <div class="desc">A lockscreen I made for myself using V.exe</div>
+        </div>
+        
+        <div class="gallery">
+            <a target="_blank" href="images/ConceptDesigns.jpg">
+                <img src="images/ConceptDesigns.jpg" alt="Two different character concepts" width="600" height="400">
+            </a>
+            <div class="desc">Two different character outfit deisngs, one with a steampunk aesthetic and the other with a futuristic aesthetic.</div>
+        </div>
+            
+      
+            
  
         
-                <h2>An unordered list of squids</h2>
-        <ol>
-            <li>Giant squid</li>
-            <li>Vampire Squid</li>
-            <li>Firefly Squid</li>
-            <li>Humbolt Squid</li>
-        </ol>
+           
        
               
         </body>
