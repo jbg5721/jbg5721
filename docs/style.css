@@ -16,7 +16,11 @@ body
   margin-left: 60px;
   margin-right: 60px;
 }
-ol {list-style-type: lower-alpha;
+
+ul {list-style-type: lower-alpha;
 padding: 5em;
     
 }
+
+
+
