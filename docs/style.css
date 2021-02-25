@@ -13,17 +13,39 @@ margin-right: 60px;
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
 
+.tab { margin-left: 50px; }
 
+a:link {
+  color: #db0000;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff0000;
+}
+
+/* selected link */
+a:active {
+  color: #ffc000;
+}
 
 
 ul.Menu {
 list-style-type: lower-alpha;
-padding: 5em;
+ padding: 5em;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  
+  /*position: fixed;
+  top: 0;*/
 }
 
 ul.Menu li {
@@ -36,17 +58,21 @@ ul.Menu li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 14.5px;
 }
 
 ul.Menu li a:hover {
   background-color: #111;
 }
-h1 {color: #3c3c3c}
+h1 {color: #3c3c3c; font-size: 3em;}
 h2 {color: #3d00ff; font-size: 25px;}
-h3 {color: #3c3c3c}
+h3 {color: #3d00ff}
 
 p {
   font-size: 19px; text-indent: 50px;
+}
+li {
+    font-size: 19px;
 }
 
 div.gallery {
