@@ -2,25 +2,79 @@
 body {
 background-color: /*BurlyWood*/ #00cbff;
 /* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
-color: #ebebeb;
-font-family: arial, helvetica, sans-serif;
+color: #000000;
+font-family: arial, helvetica, sans-serif; 
+margin-top: 40px;
+margin-left: 60px;
+margin-right: 60px;
 }
 /* ebb: This is a comment in CSS: 
  * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
-body
 
-{
-  margin-top: 40px;
-  margin-left: 60px;
-  margin-right: 60px;
-}
 
-ul {list-style-type: lower-alpha;
+
+
+ul.Menu {
+list-style-type: lower-alpha;
 padding: 5em;
-    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+ul.Menu li {
+  float: left;
+}
+
+ul.Menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.Menu li a:hover {
+  background-color: #111;
+}
+h1 {color: #3c3c3c}
+h2 {color: #3d00ff; font-size: 25px;}
+h3 {color: #3c3c3c}
+
+p {
+  font-size: 19px; text-indent: 50px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img#Avatar { width:500px; height:500px; margin:0px 25px 0px 0px; float:left;}
 
 
