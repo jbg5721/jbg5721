@@ -64,6 +64,9 @@ ul.Menu li a {
 ul.Menu li a:hover {
   background-color: #111;
 }
+ul.no-bullets {
+  list-style-type: none;
+}
 h1 {color: #3c3c3c; font-size: 3em;}
 h2 {color: #3d00ff; font-size: 25px;}
 h3 {color: #3d00ff}
