@@ -2,11 +2,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Poem 6 (J 281: 1861/1935)</title> <!-- end tag did not match start tag -->
+                <title>Poem 6 (J 281: 1861/1935)</title> <!-- jbg: end tag did not match start tag -->
                 <author>Emily Dickinson</author>
             </titleStmt>
             <publicationStmt>
-                <p>Fascicle 16: Dickinson's variants and published versions</p> <!-- End tag was missing slash -->
+                <p>Fascicle 16: Dickinson's variants and published versions</p> <!-- jbg: End tag was missing slash -->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -16,7 +16,7 @@
                     </msIdentifier>
                 </msDesc>
                 <bibl>
-                    <ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/> <!-- tag was missing closing slash -->
+                    <ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/> <!-- jbg: tag was missing closing slash -->
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -27,12 +27,12 @@
                 <listRef>
                     <ptr target="xml/1606variant.xml"/>
                     <ptr target="img/1606/fs1606a.jpg"/>
-                    <ptr target="img/1606/fs1606b.jpg"/> <!-- attribute was missing equal sign -->
+                    <ptr target="img/1606/fs1606b.jpg"/> <!-- jbg: attribute was missing equal sign -->
                     <ptr target="img/1606/1606fha.jpg"/>
                     <ptr target="img/1606/1606fhb.jpg"/>
                     <ptr target="img/1606/1606fhMap.jpg"/>
                     <ptr target="img/1606/fs1606Map.jpg">
-                </ListRef>
+                </listRef> <!-- jbg: end tag did not match start tag -->
             </div>
             <div type="witness">
                 <listWit>
@@ -46,11 +46,13 @@
                             <title>Final Harvest: Emily Dickinson's Poems</title>
                             <author>Emily Dickinson</author>
                             <editor>Thomas H. Johnson</editor>
-                            <pub Place>Boston</pub Place>
-                            <publisher>Little, Brown & Company</publisher>
+                            <pub Place>Boston</pub> <!-- jbg: attributes do not belong in the end tag -->
+                            <publisher>Little, Brown &amp; Company</publisher> <!-- jbg: you cannot add & by itself in the text, it must be as shown -->
                             <date>1961</date>
+                        </bibl> <!-- jbg: There was no end tag -->
                         
                     </witness>
+                </listWit> <!-- jbg: There was no end tag -->
             </div>
         </front>
         <body>
@@ -136,6 +138,6 @@
                 <l n="24">Gay, Ghastly, Holiday!</l>
             </lg>
         </body>
-    </text>
+   
     </text>
 
