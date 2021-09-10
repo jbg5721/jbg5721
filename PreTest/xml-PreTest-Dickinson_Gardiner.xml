@@ -31,7 +31,7 @@
                     <ptr target="img/1606/1606fha.jpg"/>
                     <ptr target="img/1606/1606fhb.jpg"/>
                     <ptr target="img/1606/1606fhMap.jpg"/>
-                    <ptr target="img/1606/fs1606Map.jpg">
+                    <ptr target="img/1606/fs1606Map.jpg"/> <!-- jbg: Missing ending slash -->
                 </listRef> <!-- jbg: end tag did not match start tag -->
             </div>
             <div type="witness">
