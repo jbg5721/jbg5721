@@ -25,7 +25,7 @@
         <front>
             <div type="references">
                 <listRef>
-                    <ptr target="xml/1606variant.xml"/>
+                    <ptr target="xml/1606/variant.xml"/> <!-- jbg: The target file appeared to be missing a slash -->
                     <ptr target="img/1606/fs1606a.jpg"/>
                     <ptr target="img/1606/fs1606b.jpg"/> <!-- jbg: attribute was missing equal sign -->
                     <ptr target="img/1606/1606fha.jpg"/>
@@ -36,17 +36,17 @@
             </div>
             <div type="witness">
                 <listWit>
-                    <witness xml:id="df16">
+                    <witness xml:id="#df16">
                         <bibl>
-                            <title>ORIGINAL POEMS<author></title>Emily Dickinson</author>
+                            <title>ORIGINAL POEMS<author>Emily Dickinson</author></title> <!-- jbg: overlapping start and end tags -->
                         </bibl>
                     </witness>
-                    <witness xml:id="fh>
+                    <witness xml:id="#fh"> <!-- jbg: missing quotation mark -->
                         <bibl>
                             <title>Final Harvest: Emily Dickinson's Poems</title>
                             <author>Emily Dickinson</author>
                             <editor>Thomas H. Johnson</editor>
-                            <pub Place>Boston</pub> <!-- jbg: attributes do not belong in the end tag -->
+                            <pub place="city">Boston</pub> <!-- jbg: attributes do not belong in the end tag, attribute also missing identifier -->
                             <publisher>Little, Brown &amp; Company</publisher> <!-- jbg: you cannot add & by itself in the text, it must be as shown -->
                             <date>1961</date>
                         </bibl> <!-- jbg: There was no end tag -->
@@ -71,15 +71,15 @@
                 <l n="2">
                     So over Horror,
                     <app>
-                        <rdg wit="#df16" type="var1">it dumb fascinates—</rdg>
-                        <rdg wit="#df16 #fh" type="var0">it half Captivates—</rdg>
+                        <rdg wit="#df16" type="var0">it dumb fascinates—</rdg>
+                        <rdg wit="#df16" wit="#fh" type="var1">it half Captivates—</rdg> <!-- jbg: seperated the wit identifiers into seperate attributes -->
                     </app>
                 </l>
                 <l n="3">The Soul stares after it, secure—</l>
                 <l n="4">
                     <app>
                         <rdg wit="#df16" type="var0">To know the worst, leaves no dread more—</rdg>
-                        <rdg wit="#df16 #fh" type="var1">A Sepulchre, fears frost, no more—</rdg>
+                        <rdg wit="#df16" wit="#fh" type="var1">A Sepulchre, fears frost, no more—</rdg> <!-- jbg: seperated the wit identifiers into seperate attributes -->
                     </app>
                 </l>
             </lg>
@@ -138,6 +138,5 @@
                 <l n="24">Gay, Ghastly, Holiday!</l>
             </lg>
         </body>
-   
     </text>
 
