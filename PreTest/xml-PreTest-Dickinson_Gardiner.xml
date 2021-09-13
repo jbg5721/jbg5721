@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <teiHeader>
+    <xml> <!-- added an XML tag to encapsulate the entire code -->
+<teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Poem 6 (J 281: 1861/1935)</title> <!-- jbg: end tag did not match start tag -->
@@ -21,7 +22,7 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text>
+  <text>
         <front>
             <div type="references">
                 <listRef>
@@ -72,14 +73,14 @@
                     So over Horror,
                     <app>
                         <rdg wit="#df16" type="var0">it dumb fascinates—</rdg>
-                        <rdg wit="#df16" wit="#fh" type="var1">it half Captivates—</rdg> <!-- jbg: seperated the wit identifiers into seperate attributes -->
+                        <rdg wit="#df16, #fh"  type="var1">it half Captivates—</rdg> 
                     </app>
                 </l>
                 <l n="3">The Soul stares after it, secure—</l>
                 <l n="4">
                     <app>
                         <rdg wit="#df16" type="var0">To know the worst, leaves no dread more—</rdg>
-                        <rdg wit="#df16" wit="#fh" type="var1">A Sepulchre, fears frost, no more—</rdg> <!-- jbg: seperated the wit identifiers into seperate attributes -->
+                        <rdg wit="#df16, #fh"  type="var1">A Sepulchre, fears frost, no more—</rdg> 
                     </app>
                 </l>
             </lg>
@@ -139,4 +140,4 @@
             </lg>
         </body>
     </text>
-
+</xml>
