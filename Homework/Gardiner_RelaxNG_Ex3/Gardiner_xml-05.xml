@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="relaxNG_Ex3.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <metaData>
+        <title pt="Ballad of Booker T."/>
+        <author person="Langston Hughes"/>
+        <date when="1941-06-01"/>
+        <stamp LOC="The Library of Congress" location="At the end of lines 5-10"/>
+        <closing c="Closing Block is signed over by author"/>
+    </metaData>
+
+
+    <header>
+        <title>BALLAD OF BOOKER T.</title> by <author>Langston Hughes</author></header>
+
+    <poem>
+        <line num="1">Booker T.</line>
+        <line num="2">Was a practical man.</line>
+        <line num="3">He said, Till the soil</line>
+        <line num="4">And learn from the land.</line>
+        <line num="5">
+            <repeatingPhrase>Let down your bucket</repeatingPhrase>
+        </line>
+        <line num="6">
+            <repeatingPhrase>Where you are.</repeatingPhrase>
+        </line>
+        <line num="7">Your fate is here</line>
+        <line num="8">And not afar.</line>
+        <line num="9">To help yourself</line>
+        <line num="10">And your fellow man,</line>
+        <line num="11"><repeatingPhrase>Train your head</repeatingPhrase>,</line>
+        <line num="12">
+            <repeatingPhrase>Your heart, <underlined>and your hand</underlined>.</repeatingPhrase>
+        </line>
+        <line num="12">For smartness alone's</line>
+        <line num="13">Surely not meet—</line>
+        <line num="14">If you haven't at the same time</line>
+        <line num="15">Got something to eat.</line>
+        <line num="16">Thus at Tuskegee</line>
+        <line num="17">He built a school</line>
+        <line num="18">With book-learning there</line>
+        <line num="19">And the workman's tool.</line>
+        <line num="20">He started out</line>
+        <line num="21">In a simple way—</line>
+        <line num="22">For yesterday</line>
+        <line num="23">Was <underlined>not</underlined> today.</line>
+        <line num="24">Sometimes he had</line>
+        <line num="25">Compromise in his talk—</line>
+        <line num="26">For a man must crawl</line>
+        <line num="27">Before he can walk—</line>
+        <line num="28">And in Alabama in '85</line>
+        <line num="29">A joker was lucky</line>
+        <line num="30">To be alive.</line>
+        <line num="31">But Booker T.</line>
+        <line num="32">Was nobody's fool:</line>
+        <line num="33">You may carve a dream</line>
+        <line num="34">With an humble tool.</line>
+        <line num="35">The tallest tower</line>
+        <line num="36">Can tumble down</line>
+        <line num="37">If it be not rooted</line>
+        <line num="38">In solid ground.</line>
+        <line num="39">So, being a far-seeing </line>
+        <line num="40">Education and Outreach Division</line>
+        <line num="41">Practical man,</line>
+        <line num="42">He said, <repeatingPhrase>Train your head</repeatingPhrase>,</line>
+        <line num="43">
+            <repeatingPhrase>Your heart, <underlined>and your hand</underlined>.</repeatingPhrase>
+        </line>
+        <line num="44">Your fate is here</line>
+        <line num="45">And not afar,</line>
+        <line num="46">So <repeatingPhrase>let down your bucket</repeatingPhrase></line>
+        <line num="47">
+            <repeatingPhrase>Where you are.</repeatingPhrase>
+        </line>
+    </poem>
+
+    <author signature="pen"/>LANGSTON HUGHES
+    <closing> Final Draft, <location>Hollow Hills Farm, Monterey, California</location>, <date
+            when="1941-06-01"/>June 1, 1941.</closing>
+</xml>
