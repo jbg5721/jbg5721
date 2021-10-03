@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>April 12th, 1909.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Calender page from Mary Behrend, was never a published item.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mary Behrend drew on her calender pages and added a small note, with each page. Each page is from the year 1909</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text xml:lang="en">
+      <body>
+         <p>COPYRIGHT 1908, BY FRIENDSHIP CALENDER CO. NEW BRITAIN, CONN.</p>
+         <p><date when="1909-04-12">APRIL 12, 1909.</date> FRIDAY</p>
+         <figure>
+            <head>Molly on Snowshoes</head>
+            <p>A girl dressed in winter weather clothing is drawn on the left side of the paper. She is wearing two huge snowshoes. These snowshoes have red dots around the edges.</p>
+         </figure>
+         <p>MoLLY ON SnoWSHoES THAT MR, WEir GoT. PRETTY PicTURE IS iT NOT?!</p>
+         <p>Love Jane Molly</p>
+      </body>
+  </text>
+</TEI>
