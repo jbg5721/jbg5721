@@ -1,0 +1,71 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TEI for Handwritten Text with Hand-drawn Images on Calendar Sheets</title>
+        <author>Joey Gardiner</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <p>TEI material can be licensed differently depending on the
+          use you intend to make of it. Hence it is made available
+          under both the CC+BY and BSD-2 licences. The CC+BY licence
+          is generally appropriate for usages which treat TEI content
+          as data or documentation. The BSD-2 licence is generally
+          appropriate for usage of TEI content in a software
+          environment. For further information or clarification,
+          please contact the TEI Consortium (info@tei-c.org).</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written from scratch, working with Roma Beta.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>TEI Complete</head>
+      <p>Customized for use with Mary Behrends Calender Pages.</p>
+
+      <p>The <att>n</att> attribute of each <gi>moduleRef</gi> below
+      reflects the chapter number of the TEI <title>Guidelines</title>
+      in which the module being referenced is defined. Note that the
+      modules are generally referred to in the order defined, with the
+      exception that the module for <title level="a">Simple Analytic
+      Mechanisms</title> is referred to before the module for <title level="a">Dictionaries</title>. This is because the class <name type="class">att.lexicographic.normalized</name> (which is
+      defined in <name type="module">analysis</name>) needs to be
+      specified before the class <name type="class">att.lexicographic</name> (which is defined in <name type="module">dictionaries</name>).</p>
+      <p>The first four modules are often
+      called the <soCalled>required</soCalled> modules. However, these
+      modules are not themselves technically required to create a TEI
+      conformant markup language (let alone a useful non-TEI
+      conformant markup language). Rather, they each contain one or
+      more <emph>elements</emph> which are required for TEI
+      conformance.</p>
+      <schemaSpec ident="tei_all" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+        <moduleRef n="01" key="tei"/>
+        <moduleRef n="02" key="header"/>
+        <moduleRef n="03" key="core" except="analytic cb divGen email gloss headItem headLabel index meeting monogr rb relatedItem rt ruby"/>
+        <moduleRef n="04" key="textstructure"/>
+        
+        
+        
+        
+        
+        
+        <moduleRef n="10" key="msdescription" except="collation depth heraldry seal sealDesc secFol support supportDesc"/>
+        <moduleRef n="11" key="transcr" except="sourceDoc"/>
+        
+        <moduleRef n="13" key="namesdates" except="personGrp persona"/>
+        <moduleRef n="14" key="figures"/>
+        
+        <moduleRef n="16" key="linking" except="annotation listAnnotation standOff timeline when link linkGrp"/>
+        
+        
+
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

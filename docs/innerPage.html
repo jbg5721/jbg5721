@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>jbg5721 sub page</title>
+        <title>Digital Projects Page</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css"/>
-        
-        
-           
-        
+      
         
     <!--    <style>
 div {
@@ -21,31 +18,35 @@ div {
 -->
     </head>
     
-    <!--2021-02-02 ebb: The code inside the <head> element is not for display in the web browser, but it holds important information about the website's contents.
-    The text inside the <title> element appears in the top tab of a web browser. The meta elements give instructions for how the browser window will behave, 
-    and the <link> element pulls in a CSS stylesheet from another (external) file you'll save in your website directory. 
-    -->
+   
    
     <body>
       <ul class ="Menu">
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="innerPage.html">Digital Projects</a></li>
-        <li><a href="Digit.html">Digit 100 Essays</a></li>
+        <!--<li><a href="Digit.html">Digit 100 Essays</a></li>-->
         <li><a href="resume.html">Resume</a></li>
         
-      </ul>
-        
-        <!--ebb: Here is where the code for the visible display of a website appears! -->
-        <div style="background-color:#ffffff;padding:20px">
+      </ul> 
+      <div class="header">
         <h1>Digital Projects Page</h1>     
             
         </div>
            <p class ="tab">Welcome to my Digital Projects page! Here I host a variety of work that I have done, from college courses, to personal works, to works done in high school.</p>
       
       <hr />
-      <h2>Digit 100, Intro to Digital Humanities</h2>
+      <div id="hundred"><h2>Digit 100, Intro to Digital Humanities</h2></div>
       <p class ="tab">I took this course in the Spring semester of 2021, of my Sophomore year. In this course I learned how to create this website! I also learned how to use Penn State Wordpress. This is a link to my portfolio site on Wordpress: <a href ="https://sites.psu.edu/jbg5721/" target="_blank">Joey Gardiner Wordpress Profile</a> </p>
       <p class ="tab">Another program we used in class is a web browser extension called, Hypothesis. This extension allows you to annotate on articles on the public web. Other users with this extension can view and react to your annotation.</p>
+      <p class="tab">Here are all the projects I worked on throughout this class:</p>
+      <ul class ="no-bullets">
+       
+          <li><a href="WebDevelopment.html">Web Development Reflection Essay</a></li>
+          <li><a href="TextAnalysis.html">Corpus Text Analysis Essay</a></li>
+          <li><a href="TimeMapper.html">Time Mapper Assignment</a></li>
+          <li><a href="GameReview.html">Game Analysis/Review</a></li>
+          
+      </ul>
       
       <hr />
       <h2>Photo 100, Introduction to Photography</h2>
@@ -124,54 +125,82 @@ div {
         </iframe>
         <hr /> 
         <h2>Personal Works</h2>
-        <p class ="tab">Below is a gallery of some of my personal digital works. I created these using Procreate, a digital drawing app. I used different brushes, layers, and colors to create these. Some like the concept drawing, were less about the technique and more so about creating an interesting character design that could stand out.  </p>
+        <p class ="tab">Below is a gallery of some of my personal digital works. I created these using Procreate, a digital drawing app. I used different brushes, layers, and colors to create these. A pass time I really enjoy is character design, the work I display here are all original characters. </p>
         
       </div>
-      <div class="gallery">
+     <!-- <div class="gallery">
         <a target="_blank" href="images/Vdotexe.jpg">
           <img src="images/Vdotexe.jpg" alt="Vexe" width="600" height="400"></img>
         </a>
         <div class="desc">This is an original character of mine, V.exe. She has digital, hacking, and data-control based powers.</div>
-      </div>
-      
+      </div>-->
       <div class="gallery">
-        <a target="_blank" href="images/LockedSreen.jpg">
-          <img src="images/LockedSreen.jpg" alt="Lockscreen background" width="600" height="400"></img>
+        <a target="_blank" href="images/Blazeheart.png">
+          <img src="images/Blazeheart.png" alt="A hero watching a sunset over a city horizon" width="600" height="600"></img>
         </a>
-        <div class="desc">A lockscreen I made for myself using V.exe</div>
-      </div>
-      
-      <div class="gallery">
-        <a target="_blank" href="images/ConceptDesigns.jpg">
-          <img src="images/ConceptDesigns.jpg" alt="Two different character concepts" width="600" height="400"></img>
-        </a>
-        <div class="desc">Two different character outfit deisngs, one with a steampunk aesthetic and the other with a futuristic aesthetic.</div>
+        <div class="desc">This is a character I designed, a superhero called Blazeheart.</div>
       </div>
       <div class="gallery">
-        <a target="_blank" href="images/CatchMeIfYouCan.jpg">
-          <img src="images/CatchMeIfYouCan.jpg" alt="Kurrent" width="600" height="400"></img>
+        <a target="_blank" href="images/tomb_twins.png">
+          <img src="images/tomb_twins.png" alt="The twin kings of a near forgotten city" width="600" height="600"></img>
         </a>
-        <div class="desc">This is an original character of mine, Kurrent. Possessing super speed and water control abilities, he fights to protect his city.</div>
-      </div>
-      <div class="gallery">
-        <a target="_blank" href="images/EchO.jpg">
-          <img src="images/EchO.jpg" alt="Over Under PFP" width="600" height="400"></img>
-        </a>
-        <div class="desc">This is a profile picture I created for myself using Procreate.</div>
-        
+        <div class="desc">These two are the twin rulers of a near forgotten settlement.</div>
       </div>
       <div class="gallery">
         <a target="_blank" href="images/ElementGuards.png">
-          <img src="images/ElementGuards.png" alt="The three guardians of Ech" width="600" height="400"></img>
+          <img src="images/ElementGuards.png" alt="The three guardians of Ech" width="600" height="600"></img>
         </a>
-        <div class="desc">Aquilo, Mother Silvana, Oce are characters I created for a video game.</div>
+        <div class="desc">Aquilo, Mother Silvana, Oce are the three titans of nature. Each protect the skys, the earth, and the seas respectively. </div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/kurrent_portrait_.png">
+          <img src="images/kurrent_portrait_.png" alt="Kurrent" width="600" height="600"></img>
+        </a>
+        <div class="desc">A comic style portrait of a superhero called Kurrent. Background photo was taken by me.</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/blinded_by_revenge.png">
+          <img src="images/blinded_by_revenge.png" alt="Villian flying in the sky, radiating light" width="600" height="600"></img>
+        </a>
+        <div class="desc">This supervillian, called Solar Flare, only seeks revenge. She can control light.</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/Satellite_.png">
+          <img src="images/Satellite_.png" alt="a character wearing black and white, with rollerblades and elbow-mounted swords" width="600" height="600"></img>
+        </a>
+        <div class="desc">A superhero sidekick called Satellite.</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/Mist.png">
+          <img src="images/Mist.png" alt="A character covered with baggy cloth" width="600" height="600"></img>
+        </a>
+        <div class="desc">A concept design of a mysterious character that is always accompanied with clouds of mist.</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/ConceptDesigns.jpg">
+          <img src="images/ConceptDesigns.jpg" alt="Two different character concepts" width="600" height="600"></img>
+        </a>
+        <div class="desc">Two different character outfit designs, one with a steampunk aesthetic and the other with a futuristic aesthetic.</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/durable_tech.png">
+          <img src="images/durable_tech.png" alt="Five different items that have been heavily used." width="600" height="600"></img>
+        </a>
+        <div class="desc">These pieces of sci-fi equipment are designed to look like they've been around for a long time, been worn down and heavily used.</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/EchO.jpg">
+          <img src="images/EchO.jpg" alt="Over Under PFP" width="600" height="600"></img>
+        </a>
+        <div class="desc">This is what I commonly use as a profile picture for my online presence.</div>
         
       </div>
+      
       <div class="clearfix"></div>
       <div style="padding:6px;">
       <hr />
         <h2>High School</h2>
       <p class ="tab">This is a link to a website portfolio I created using Wix in my 11th grade year of high school: <a href="https://joeygardiner0.wixsite.com/cg2profile" target="_blank">Joey Gardiner Wix Portfolio</a></p>
-      <p class = "tab">This class, Computer Engineering Graphics 2, was an elective course offered at my high school. In this class we explored programs such as 3D Studio Max, Solid Works, Unity, Autodesk Revit, and Photoshop. We were even able to use a laser cutter and 3D printers.</p>
+      <p class = "tab">This class, Computer Engineering Graphics 2, was an elective course offered at my high school. In this class we explored programs such as 3D Studio Max, Solid Works, Unity, Autodesk Revit, and Photoshop. We were even able to use a laser cutter and 3D printers.</p></div>
         </body>
 </html>

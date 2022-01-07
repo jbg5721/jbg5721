@@ -1,8 +1,8 @@
 
 body {
-background-color: /*BurlyWood*/ #00cbff;
+background-color: /*BurlyWood #00cbff;*/ #daedf1;
 /* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
-color: #000000;
+color: /*#000000;*/ #1b4166;
 font-family: arial, helvetica, sans-serif; 
 margin-top: 40px;
 margin-left: 60px;
@@ -67,9 +67,14 @@ ul.Menu li a:hover {
 ul.no-bullets {
   list-style-type: none;
 }
-h1 {color: #3c3c3c; font-size: 3em;}
-h2 {color: #3d00ff; font-size: 25px;}
-h3 {color: #3d00ff}
+h1 {color: #fff; font-size: 3em;}
+h2 {color: #1b4166; font-size: 25px;}
+h3 {color: #1b4166}
+
+div.header {
+    background-color:#1b4166;
+    padding:20px
+}
 
 p {
   font-size: 19px; text-indent: 50px;
@@ -83,6 +88,7 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+  height: 400px;
 }
 
 div.gallery:hover {
@@ -104,6 +110,15 @@ div.desc {
   clear: both;
 }
 
-img#Avatar { width:500px; height:500px; margin:0px 25px 0px 0px; float:left;}
+img#Avatar { width:500px; height:500px; margin:25px 25px 0px 0px; float:left;}
+
+div.tex {margin:25px 25px 0px 0px;}
+
+div.iframe {
+    border: none; 
+    width:100%; 
+    height:780px;
+    
+}
 
 
