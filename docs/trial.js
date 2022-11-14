@@ -1,6 +1,9 @@
  window.addEventListener('DOMContentLoaded',init,false);
 
 function init() {
+    var fieldset = document.getElementsByTagName('input');
+    for (var i = 0; i < fieldset.length; i++) {
+        fieldset[i].addEventListener('click', toggle, false);}
     
     var buttons = document.getElementsByTagName("button")
 buttons[0].addEventListener('click', changeColor,true)
@@ -16,4 +19,16 @@ var colorMe1 = document.getElementById("colorToggle")
 function changeColor2() {
 var colorMe1 = document.getElementById("colorToggle") 
 {colorMe1.style.backgroundColor = "";}
+}
+
+function toggle() {
+var id = this.id;
+    switch (id) {
+        case "nameToggle": {
+            var name = document.getElementsByClassName("name");
+            for (var i = 0; i < name.length; i++) {
+                name[i].classList.toggle("on")
+            }
+        };
+    }
 }

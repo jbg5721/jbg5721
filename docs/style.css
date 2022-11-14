@@ -184,4 +184,8 @@ div.capsule {
     justify-content: space-around;
     display:flex;
 }
+span.name.on {
+    color:#4be614;
+}
+
 
